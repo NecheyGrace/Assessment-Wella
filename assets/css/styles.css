@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --header-height:3rem;
+
+
+
+     /*=======   colors =======*/
+     --first-color:#DA2535;
+     --first-color-alt:#C42130;
+     --first-color-send:#DE3B49;
+     --title-color:#161212;
+    }
+html{
+    scroll-behavior: smooth;
+ }
+ header{
+   
+ }
+ a{
+    text-decoration: none;
+}
+img{
+    max-width:100% ;
+}
+.section{
+   padding-top: 1.5rem;
+ }
+ 
+ .properties__title,.get__title,.clients-title,.section-title{
+    text-align: center;
+ }
+ .home__container,.get__container,.footer__container,.offer__container,.properties__container, .clients__container{
+    
+    padding-right:  2.0rem;
+    padding-left: 2.0rem;
+    
+ }
+ nav, .get__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .nav__logo{
+    
+ }
+ ul{
+    display: flex;
+   
+ }
+ li{
+    list-style-type: none;
+    padding: 0 20px;
+ }
+ .home__data{
+    text-align: initial;
+ }
+ .home__title{
+    font-family: Circular Std;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: left;
+
+ }
+ .home__description{
+    font-family: Circular Std;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+ }
+ .image{
+    height: 100%;
+    width: 150%;
+ }
+ .home__img{
+    
+    height: 100%;
+    width: 80%;
+    
+}
+ .home__container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+ }
+ 
+ .button{
+    background: #141414;
+    color: white;
+ }
+ .offer__container{
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+ }
+.properties__container,.clients__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+ .get__container{
+    background:#161212 ;
+    color: white;
+   
+ }
+ .properties__container{
+  
+ }
+.clients-say{
+    width: 415px;
+    background-color: #161212;
+    font-family: Benton Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+
+}
